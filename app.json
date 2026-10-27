@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Weatherly",
+    "slug": "weatherly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Weatherly to use your location for local forecasts."
+        }
+      ]
+    ],
+    "ios": { "supportsTablet": true },
+    "android": { "edgeToEdgeEnabled": true }
+  }
+}
